@@ -1,0 +1,1196 @@
+Q1
+
+ 
+How can you specify default text in an input field?
+Single Choice - Select one correct answer from the options list.
+Using JavaScript.
+Using ‘text‘ attribute.
+Using the ‘placeholder‘ element.
+Using the ‘placeholder‘ attribute.
+Q2
+
+ 
+Which is correct about Hidden form fileds
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Used to submit information that is not entered by the visitors.
+Used as mechanism to carry information from one page to another.
+Similar to text field but not shown on the page.
+none of the above
+Q3
+
+ 
+In the code <frameset cols=”120,*”>  the following would be true.
+Single Choice - Select one correct answer from the options list.
+Top frame would be 120 pixels high
+Left frame would be 120 inches wide
+Left frame would be 120 pixels wide
+None of the above
+Q4
+
+ 
+To send a mail on clicking the Submit type button in an HTML form we need to define the action in
+Single Choice - Select one correct answer from the options list.
+<input type=”submit” action=”mailto:admin@capgemini.com”/>
+<form name=”formOne” action=”mailto:admin@capgemini.com”>
+Q5
+
+ 
+Which attribute of the HTML table specifies the row span of a cell?
+Single Choice - Select one correct answer from the options list.
+colspan
+both rowspan and colspan
+rowspan
+none of the above
+Q6
+
+ 
+Which doctype is correct for HTML 5?
+Single Choice - Select one correct answer from the options list.
+<!DOCTYPE HTML5>
+<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN" "http://www.w3.org/TR/html5/strict.dtd">
+Q7
+
+ 
+How do you call a function called calculateArea() in JavaScript.
+Single Choice - Select one correct answer from the options list.
+call function calculateArea()
+call calculateArea()
+calculateArea()
+None of the above
+Q8
+
+ 
+Which of the following is in proper form?
+Single Choice - Select one correct answer from the options list.
+DOCUMENT.write(‘Hello World‘);
+document.WRITE(“Hello World”);
+document.write("Hello World");
+None of the above
+Q9
+
+ 
+What will be the output of the following HTML Code?
+ 
+<input type="button" onclick="alert(‘Wow... you sure do know how to click!‘);" value="Click me..." />
+Single Choice - Select one correct answer from the options list.
+When user clicks on the button an alert message will pop up with the text defined above
+It is not possible to define JavaScript code directly within HTML
+Error and it does not work
+None of the above
+Q10
+
+ 
+Which of the following is valid statement in JavaScript
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+document.window.getElementById("element");
+document.getElementById("element");
+document.getElementsByName("element");
+document.EventActionForm.element.value();
+Q11
+
+ 
+Which of the following interfaces can be used to store a collection of non-duplicate objects in an unordered fashion ? 
+Select 1 correct option.
+Single Choice - Select one correct answer from the options list.
+List
+Map
+Set
+SortedList
+Q12
+
+ 
+Consider the following Scenario: Jagadeesh is creating an application in which he wants to use a collection container with the following features:
+i. Container should not allow duplicates
+ii. The container when instantiated, should be initialized with the elements of an existing Set.
+iii. Iteration order of the new Set should be same as that of the existing Set.
+ 
+Which of the following option gives the most suitable Collection class implementation that Jagadeesh should use for building this application?
+Single Choice - Select one correct answer from the options list.
+HashSet
+Hashtable
+TreeSet
+LinkedHashSet
+Q13
+
+ 
+Consider the following code:
+ 
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.Arrays;
+ 
+public class TestSet {
+          public static void main(String args[]) {
+                   Integer[] num = {7,5,7,3};
+                   Set<Integer> set = new TreeSet<Integer>(Arrays.asList(num));
+                   set.add(4);
+                    for(Integer value: set) {
+                            System.out.print(value + " ");
+                    }
+           }
+}
+ 
+Which of the following option gives the valid output for the above code?
+Single Choice - Select one correct answer from the options list.
+3, 5, 7, 4
+7, 5, 4, 3
+3, 5, 7, 7, 4
+3, 4, 5, 7
+Q14
+
+ 
+What will be the output of the program block below?
+ 
+import java.util.SortedMap;
+import java.util.TreeMap;
+ 
+public class CollectionAssesment {
+         public static void main(String[] args) {
+                 SortedMap sMap = new TreeMap();
+                 sMap.put(5, "emp1");
+                 sMap.put(6, "emp2");
+                 sMap.put("c", "emp3");
+                 System.out.println(sMap.size());
+          }
+ }
+Single Choice - Select one correct answer from the options list.
+2
+3
+9
+Runtime exception
+Q15
+
+ 
+HashMap guarantees that the order of the map will remain constant over time
+Single Choice - Select one correct answer from the options list.
+Correct
+Wrong
+Q16
+
+ 
+Which of the following statements are correct?
+Select 1 correct option.
+Single Choice - Select one correct answer from the options list.
+A List stores elements in a Sorted Order.
+A Set keeps the elements sorted and a List keeps the elements ordered.
+A SortedSet keeps the elements ordered.
+An OrderedSet keeps the elements sorted.
+Q17
+
+ 
+Which of these statements are true?[Select 3]
+1. A HashSet does not permit duplicates
+2. A Vector permits duplicates
+3. A TreeSet is an sorted Set
+4. A LinkedList is sorted in descending order
+5. A LinkedList is sorted in ascending order
+Single Choice - Select one correct answer from the options list.
+1,2,3
+2 only
+4,5
+1,5
+Q18
+
+ 
+Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?
+Single Choice - Select one correct answer from the options list.
+TreeMap
+HashMap
+LinkedHashMap
+The answer depends on the implementation of the existing instance.
+Q19
+
+ 
+Given:
+11. public class Person {
+12. private name;
+13. public Person(String name) {
+14. this.name = name;
+15. }
+16. public int hashCode()
+{
+17. return 420;
+18. }
+19. }
+ 
+Which is true?
+Single Choice - Select one correct answer from the options list.
+The time to find the value from HashMap with a Person key depends<br />on the size of the map</p>
+Deleting a Person key from a HashMap will delete all map entries for<br/>all keys of type Person.
+Inserting a second Person object into a HashSet will cause the first<br/>Person object to be removed as a duplicate.
+The time to determine whether a Person object is contained in a<br/>HashSet is constant and does NOT depend on the size of the map.
+Q20
+
+ 
+Given:
+23. Object [] myObjects = {
+24. new integer(12),
+25. new String("foo"),
+26. new integer(5),
+27. new Boolean(true)
+28. };
+29. Arrays.sort(myObjects);
+30. for( int i=0; i<myObjects.length; i++) {
+31. System.out.print(myObjects[i].toString());
+32. System.out.print(" ");
+33. }
+What is the result?
+Single Choice - Select one correct answer from the options list.
+Compilation fails due to an error in line 23.
+Compilation fails due to an error in line 29.
+A ClassCastException occurs in line 29.
+A ClassCastException occurs in line 31.
+Q21
+
+ 
+One of the new classes in J2SE 5.0 that can be used for formatted input such as reading and parsing primitive type and strings is:
+Single Choice - Select one correct answer from the options list.
+java.io.Scanner
+java.util.Scanner
+java.io.InputReader
+java.util.FormattedReader
+Q22
+
+ 
+Files.delete(path); invocation throws
+Single Choice - Select one correct answer from the options list.
+NoSuchFileException
+FileNotFoundException
+IOException
+All of the above
+Q23
+
+ 
+I can customise my object serialisation using
+Single Choice - Select one correct answer from the options list.
+volatile
+ transient
+ synchronised
+static
+Q24
+
+ 
+Which statements are true about the Scanner class?
+Select the 3 correct answers.
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+The Scanner class has constructors that can accept the following as an argument: a String, a StringBuffer, a StringBuilder, a File, an InputStream, a Reader.
+The Scanner class provides a method called hasNextBoolean, but not a method called hasNextChar.
+The methods hasNext(), next(), skip(), findInLine(), and useDelimiters() of the Scanner class can take a Pattern or a String as an argument.
+The situation where the scanner cannot match the next token or where the input is exhausted, can be detected by catching an unchecked NoSuchElement- Exception in the program.
+Q25
+
+ 
+Given the following code:
+
+public class RQ600_10 {
+     public static void main(String[] args) {
+          Scanner lexer = new Scanner(System.in);
+          // (1) INSERT PRINT STATEMENT HERE.
+     }
+}
+
+Which print statements, when inserted independently at (1), will not make the program
+run as follows (with user input shown in bold):
+>java RQ600_10
+99 20.07 true 786
+99
+>
+Select the three correct answers.
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+System.out.println(lexer.nextByte());
+System.out.println(lexer.nextDouble());
+System.out.println(lexer.nextBoolean());
+System.out.println(lexer.next());
+Q26
+
+ 
+What does the Map operation do?
+Single Choice - Select one correct answer from the options list.
+it takes a stream of a given type, returns a stream of a different type, removing some elements
+it takes a stream of a given type, returns a stream of a different type, keeping all the elements
+it takes a stream of a given type, returns a stream of the same type, removing some elements
+it takes a stream of a given type, returns a stream of the same type, keeping all the elements
+Q27
+
+ 
+Functional interfaces can be annotated as
+Single Choice - Select one correct answer from the options list.
+@Function
+@FunctionalInterface
+@Functional
+@Interface
+Q28
+
+ 
+Lambda expressions are used primarily to define inline implementation of a functional interface.
+Single Choice - Select one correct answer from the options list.
+TRUE
+FALSE
+Q29
+
+ 
+The newly introduced Streams API is available in which package of java 8:
+Single Choice - Select one correct answer from the options list.
+java.io.streams
+java.io.stream
+java.util.streams
+java.util.stream
+Q30
+
+ 
+class A extends Thread {
+  public void run()
+{
+System.out.print("A");
+}
+}
+class B {
+  public static void main (String[] args) {
+    A a = new A(); a.start();
+    try {
+a.join();
+    } catch (InterruptedException ie) {
+ie.printStackTrace();
+}
+ 
+a.start();  // 1
+}
+}
+What is the result of attempting to compile and run 
+the program? 
+Single Choice - Select one correct answer from the options list.
+The program compiles and runs without error
+The second attempt to start thread t1 is successful
+The second attempt to start thread t1 is ignored
+Compile-time error at marker 1
+An IllegalThreadStateException is thrown at run-time
+None of the above
+Q31
+
+ 
+The run () method in Thread class does nothing.
+Single Choice - Select one correct answer from the options list.
+Incorrect
+Correct
+Q32
+
+ 
+class A implements Runnable{
+ public void run()
+ {
+ }
+}
+class B {
+  public static void main(String[] args) {
+    Thread t1 = new Thread();             // 1
+    Thread t2 = new Thread(new A());      // 2
+    Thread t3 = new Thread(new A(), "A"); // 3
+    Thread t4 = new Thread("A");          // 4
+}}
+A compile-time error is generated at which line? 
+Single Choice - Select one correct answer from the options list.
+1
+2
+3
+4
+None of the above
+Q33
+
+ 
+What happens when a thread executes wait() method on an object without owning the object's lock? 
+Select 1 correct option.
+Single Choice - Select one correct answer from the options list.
+It pauses till somebody releases the lock and then it acquires the lock.
+It causes the object to release all it's locks.
+It acquires the lock and proceeds.
+It throws an exception.
+Q34
+
+ 
+abstract class D {
+String s1 = "D"; 
+String getS1()
+{
+return s1;
+}
+}
+class E extends D {String s1 = "E"; String getS1()
+{
+return s1;
+}
+}
+class F {
+  public static void main (String[] s) {
+    D x = new E();
+  System.out.print(x.s1 + x.getS1());
+}}
+What is the result of attempting to compile and run the program? 
+Single Choice - Select one correct answer from the options list.
+Prints: DD
+Prints: DE
+Prints: ED
+Prints: EE
+Run-time error
+Compile-time error
+Q35
+
+ 
+class SuperA {String s1="SuperA";}
+class SuperB {String s1="SuperB";}
+class A extends SuperA {
+  String s1="A";
+  class B extends SuperB {  // 1
+    String s1="B";
+    void m1()
+{
+      System.out.print(this.s1 + "");   // 2
+      System.out.print(super.s1 + "");  // 3
+      System.out.print(A.this.s1 + ""); // 4
+      System.out.print(A.super.s1);      // 5
+    }
+  }
+  public static void main (String[] args) {
+    new A().new B().m1();  // 6
+}}
+What is the result of attempting to compile and run the program? 
+Single Choice - Select one correct answer from the options list.
+Prints: B,SuperB,B,SuperB
+Prints: B,SuperB,A,SuperA
+Compile-time error at 1.
+Compile-time error at 2.
+Compile-time error at 3.
+Compile-time error at 4.
+Q36
+
+ 
+public class Plant {
+private String name;
+public Plant(String name) { this.name = name; }
+public String getName()
+{ return name; }
+}
+1. public class Tree extends Plant {
+2. public void growFruit()
+{ }
+3. public void dropLeaves()
+{ }
+4. }
+Which statement is true?
+Single Choice - Select one correct answer from the options list.
+The code will compile without changes.
+The code will compile if public Tree()
+{ Plant(); } is added to the Tree class.
+The code will compile if public Plant()
+{ Tree(); } is added to the Plant class.
+The code will compile if public Plant()
+{ this("fern"); } is added to the Plant class.
+Q37
+
+ 
+class A {void m1()
+{System.out.print("A.m1");}}
+class B extends A {
+  void m1()
+{System.out.print("B.m1");}
+  static void m1(String s) {System.out.print(s+"");}
+}
+class C {
+  public static void main (String[] args) {B.m1("main"); new B().m1();}
+}
+What is the result of attempting to compile and run the program? 
+Single Choice - Select one correct answer from the options list.
+Prints: main,B.m1
+Compile-time error
+Run-time error
+None of the above
+Q38
+
+ 
+Consider the following classes...
+class Car{
+public int gearRatio = 8;
+public String accelerate()
+{ return "Accelerate : Car"; }
+}
+class SportsCar extends Car{
+public int gearRatio = 9;
+public String accelerate()
+{ return "Accelerate : SportsCar"; }
+public static void main(String[] args){
+Car c = new SportsCar();
+System.out.println( c.gearRatio+" "+c.accelerate() );
+}
+}
+
+What will be printed when SportsCar is run?
+Single Choice - Select one correct answer from the options list.
+8 Accelerate : Car
+9 Accelerate : Car
+8 Accelerate : SportsCar
+9 Accelerate : SportsCar
+Q39
+
+ 
+class T {
+  private int i1, i2;
+  void printI1I2()
+{
+System.out.print("T, i1="+i1+", i2="+i2);
+}
+  T(int i1, int i2)
+{
+this.i1=i1; this.i2=i2;
+}
+}
+class U extends T {
+  private int i1, i2;
+  void printI1I2()
+{
+System.out.print("U, i1="+i1+", i2="+i2);
+}
+  U(int i1, int i2)
+{
+this.i1=i1; this.i2=i2;
+}
+  public static void main(String[] args) {
+    T t = new U(12); t.printI1I2();
+}}
+What is the result of attempting to compile and run the program? 
+Single Choice - Select one correct answer from the options list.
+Prints: U, i1=1, i2=2
+Prints: T, i1=1, i2=2
+Prints: U, i1=null, i2=null
+Prints: T, i1=null, i2=null
+Run-time error
+Compile-time error
+Q40
+
+ 
+The instance of public class MyException which extends Exception will be
+Single Choice - Select one correct answer from the options list.
+Checked Exception
+Unchecked Exception
+There is nothing like user defined exception
+None of above
+Q41
+
+ 
+Which of the following statement is true regarding the throws declarations for overriden methods?
+Single Choice - Select one correct answer from the options list.
+When a method in the super class is declared to throw a Checked Exception, the overriding method in the sub class should also declare the same.
+The overriding methods cannot declare to throw the Super Class types of those exceptions declared in the super class methods.
+the overriding method cannot re-declare the Unchecked exceptions, that are declared by super class method.
+The overriding method cannot declare additional exceptions which is not declared in its super class version.
+Q42
+
+ 
+Consider the following code:
+ 
+01 public class TestReturnInFinally {
+02             public static void main(String args[]) {
+03                       System.out.println(testMethod());
+04             }
+05             static int testMethod()
+    {
+06                       try {
+07                              try {
+08                                      System.out.println("Returning from inner try");
+09                                      return 100;
+10                              } finally {
+11                                      System.out.println("Returning from inner finally");
+12                                      return 200;
+13                              }
+14                    } finally {
+15                                      System.out.println("Returning from outer finally");
+16                                      return 300;
+17                    }
+18           }
+19    }
+ 
+Which of the following option gives the output for the above code?
+Single Choice - Select one correct answer from the options list.
+Returning from inner try Returning from inner finally 200
+Returning from inner try Returning from inner finally Returning from outer finally 300
+Shows compile time error 'Unreachable code at line numbers 11 and 15'
+Shows compile time error 'Unreachable code at line number 15'
+Q43
+
+ 
+Consider the following code:
+ 
+1   abstract class SuperException extends Throwable {}
+2   class SpecialException extends SuperException { }
+3
+4   public class TestAbstractThrowable {
+5             public static void main(String args[]) {
+6                      try {
+7                               testAbstract();
+8                      } catch(SuperException ae) {
+9                               System.out.println("SuperException caught");
+10                    }
+11             }
+12
+13             static void testAbstract()
+{
+14                        throw new SpecialException();
+15              }
+16    }
+ 
+Which of the following statements are true regarding the above code?
+1) Shows Unreachable catch block for SuperException, at line number 8
+2) Shows Unhandled exception type SpecialException, at line number 13
+3) No error in the code Prints: SuperException caught
+4) Shows Unreachable catch block for SuperException, at line number 7
+5) Shows Unhandled exception type SpecialException, at line number 14
+Single Choice - Select one correct answer from the options list.
+1,5
+2,3
+3,4
+3,5
+Q44
+
+ 
+Consider the following code snippet:
+void m1() throws Exception{
+try{
+// line1
+}catch (IOException e){
+throw new SQLException();
+}catch(SQLException e){
+throw new InstantiationException();
+}finally{
+throw new CloneNotSupportedException() // this is not a RuntimeException.
+}
+}
+
+Which of the following statements are true?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+If IOException gets thrown at line1, then the m1() method will end up throwing SQLException.
+If IOException gets thrown at line1, then m1() method will end up throwing CloneNotSupportedException.
+If IOException gets thrown at line1, then m1() method will end up throwing InstantiationException()
+If no exception is thrown at line1, then m1() method will end up throwing CloneNotSupportedException.
+Q45
+
+ 
+Consider the following code:
+ 
+import java.io.IOException;
+import java.io.FileNotFoundException;
+ 
+public class TestThrowInFinally {
+               public static void main(String args[]) {
+                          try {
+                                  method1();
+                          } catch(Exception e) {
+                                  System.out.println(e.getMessage());
+                          }
+                }
+ 
+               static void method1() throws IOException {
+                         try {
+                                method2();
+                         } finally {
+                                System.out.println("finally method1"); throw new IOException("IOException");
+                         }
+                }
+ 
+                static void method2() throws FileNotFoundException {
+                          throw new FileNotFoundException("FileNotFoundException");
+                }
+}
+ 
+Which of the following option gives the output for the above code?
+Single Choice - Select one correct answer from the options list.
+finally method1 FileNotFoundException
+finally method1
+FileNotFoundException finally method1
+finally method1 IOException
+Q46
+
+ 
+What will be the result of attempting to compile and run the following program?
+
+public class MyClass {
+     public static void main(String[] args) {
+          RuntimeException re = null;
+          throw re;
+     }
+}
+
+Select the one correct answer.
+Single Choice - Select one correct answer from the options list.
+The code will fail to compile because the main() method does not declare that it throws RuntimeException in its declaration.
+The program will fail to compile because it cannot throw re.
+The program will compile without error and will throw java.lang.Runtime-Exception when run.
+The program will compile without error and will throw java.lang.Null-PointerException when run.
+Q47
+
+ 
+int i=0;
+while(true){
+     if(i++==4){
+          break;
+     }
+     ++i;
+}
+System.out.println("i="+(i++));
+Single Choice - Select one correct answer from the options list.
+i=0
+i=4
+i=5
+i=6
+Q48
+
+ 
+final int i = 10;
+Single Choice - Select one correct answer from the options list.
+i is a variable
+i is a constant
+i is a Wrapper object of Integer class
+All of above
+Q49
+
+ 
+System.gc() method compulsarily runs garbage collection
+Single Choice - Select one correct answer from the options list.
+True
+False
+Q50
+
+ 
+What is true about Varags in java?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+The varrags allows the method to accept zero or muliple arguments
+The varrags allows the method to accept array arguments.
+The varargs uses ellipsis i.e. three dots after the data type.
+None of the above.
+Q51
+
+ 
+Consider the following code:
+ 
+class TestWrapper2 {
+              public static void main(String args[]) {
+                          Integer i = 1411; Integer j = i; i++;
+                          System.out.println((i == j) && (i.equals(j))); i--;
+                          System.out.println((i == j) && (i.equals(j)));
+              }
+ }
+ 
+Which of the following option gives the output for the above code?
+Single Choice - Select one correct answer from the options list.
+true false
+false true
+true true
+false false
+Q52
+
+ 
+class DemoCode {
+     public static void main(String args[]) {
+          byte b = 1;
+          byte b1 = b+1;
+          System.out.println(b1);
+     }
+}
+Single Choice - Select one correct answer from the options list.
+Compilation Fails
+1
+2
+None of these
+Q53
+
+ 
+How to prevent method overridding
+Single Choice - Select one correct answer from the options list.
+Not possible in Java
+Declare method as protected
+Declare method as public
+Declare method as static.
+Q54
+
+ 
+If you run the code below, what gets printed out?
+ 
+String s=new String("Bicycle");
+int iBegin=1;
+char iEnd=3;
+System.out.println(s.substring(iBegin,iEnd));
+Single Choice - Select one correct answer from the options list.
+Bic
+ic
+icy
+error: no method matching substring(int,char)
+Q55
+
+ 
+Given the following declarations
+String s1=new String("Hello")
+String s2=new String("there");
+String s3=new String();
+Which of the following are legal operations?
+Single Choice - Select one correct answer from the options list.
+s3=s1 + s2;
+s3=s1 - s2;
+s3=s1 & s2;
+s3=s1 && s2;
+Q56
+
+ 
+For the given code below, how many String instances is getting created
+ 
+String s1 = "abc";
+String s2 = new String("abc");
+String s3 = "abc";
+String s4 = new String("abc");
+Single Choice - Select one correct answer from the options list.
+1
+2
+3
+4
+Q57
+
+ 
+Which of the following is a restriction of final methods?
+Single Choice - Select one correct answer from the options list.
+A final method can be over-ridden
+A final method can be declared abstract because you cannot use it.
+A final method cannot be overridden
+None of them
+Q58
+
+ 
+Consider the following code:
+ 
+abstract class drawing {
+                final public void color(String s) {
+                              System.out.println(s);
+                }
+                abstract void draw();
+}
+ 
+class line extends drawing {
+               void draw()
+{
+                          System.out.println("line");
+               }
+}
+ 
+class circle extends line {
+            void draw()
+{
+                       System.out.println("circle");
+            }
+}
+ 
+public class Test {
+             public static void main(String ar[]) {
+                         line l = new line();
+                         l.color("blue");
+                         l.draw();
+                         circle c = new circle();
+                         c.color("blue"); c.draw();
+            }
+}
+ 
+Which of the following option gives the valid output for the above code?
+Single Choice - Select one correct answer from the options list.
+blue circle blue line
+blue line blue line
+blue circle blue circle
+blue line blue circle
+Q59
+
+ 
+Consider the following code:
+ 
+interface dumb { }
+interface Silent { }
+class Base implements dumb { }
+class Derived extends Base implements Silent { }
+ 
+public class Test {
+          public static void main(String []args) {
+                     Base[] base = {new Base()};               // Line no 1
+                     Derived dev[] = {new Derived()};         // Line no 2
+                     Object obj = dev;                              // Line no 3
+                     base = obj;                                        // Line no 4
+          }
+}
+ 
+At the time of compilation the above mentioned code generates some error. Which of the following option gives the line no where the error is generated?
+Single Choice - Select one correct answer from the options list.
+Line no 2
+Line no 3
+Line no 1
+Line no 4
+Q60
+
+ 
+In which of these variable declarations will the variable remain uninitialized
+unless it is explicitly initialized?
+
+Select the one correct answer.
+Single Choice - Select one correct answer from the options list.
+Declaration of an instance variable of type int.
+Declaration of a static variable of type float.
+Declaration of a local variable of type float.
+Declaration of a static variable of type Object.
+Q61
+
+ 
+Examine the structure of the EMPLOYEES table:
+ 
+EMPLOYEE_ID NUMBER Primary Key
+FIRST_NAME VARCHAR2(25)
+LAST_NAME VARCHAR2(25)
+ 
+Which three statements insert a row into the table?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+INSERT INTO employees (employee_id, first_name, last_name) VALUES ( 1000, 'John', ' ');
+INSERT INTO employees (employee_id) VALUES (1000);
+INSERT INTO employees (first_name, last_name, employee_id) VALUES ( 1000, 'John', 'Smith');
+INSERT INTO employees VALUES ( '1000', 'John', NULL);
+Q62
+
+ 
+Examine the structure of the employees table:
+employee_id number primary key
+first_name varcha2(25)
+last_name varchar2(25)
+ 
+which statments insert rows into table?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+insert into employees values(null,'john','smith');
+insert into employees (first_name,last_name) values ('john','smith');
+insert into employees values(1000,'john',null);
+insert into employees (employee_id) values (1000)
+Q63
+
+ 
+You want to display the details of all employees whose last name is Smith, but you are not sure in which case the last names are stored. Which statement will list all the employees whose last name is Smith?
+Single Choice - Select one correct answer from the options list.
+SELECT lastname, firstname FROM emp WHERE LOWER(lastname) = 'smith';
+SELECT lastname, firstname FROM emp WHERE UPPER(lastname) = 'smith';
+SELECT lastname, firstname FROM emp WHERE lastname = 'smith';
+SELECT lastname, firstname FROM emp WHERE lastname = UPPER('smith');
+Q64
+
+ 
+With SQL, how do you select a column named "FirstName" from a table named "Persons"?
+Single Choice - Select one correct answer from the options list.
+EXTRACT FirstName FROM Persons
+SELECT FirstName FROM Persons
+SELECT Person.FirstName
+None of above
+Q65
+
+ 
+Which SQL statement is used to return only different values?
+Single Choice - Select one correct answer from the options list.
+SELECT UNIQUE
+SELECT DISTINCT
+SELECT DIFFERENT
+SELECT *
+Q66
+
+ 
+In SQL , Which of the following is not a Data manipulation command ?
+Single Choice - Select one correct answer from the options list.
+Delete
+Update
+Truncate
+Insert
+Q67
+
+ 
+With SQL, how can you return the number of records in the "Persons" table?
+Single Choice - Select one correct answer from the options list.
+SELECT COLUMNS(*) FROM Persons
+SELECT COUNT() FROM Persons
+SELECT COUNT(*) FROM Persons
+SELECT COLUMNS() FROM Persons
+Q68
+
+ 
+Which of the following is a valid name for a procedure?
+Single Choice - Select one correct answer from the options list.
+1FUNCTION
+PROCEDURE
+PR_HEADER$
+ALL RESULTS
+Q69
+
+ 
+How can you change "Hansen" into "Nilsen" in the "LastName" column in the Persons table?
+Single Choice - Select one correct answer from the options list.
+MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen
+UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'
+UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'
+MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'
+Q70
+
+ 
+Which SELECT statement displays all the employees who do not have any subordinates?
+Single Choice - Select one correct answer from the options list.
+SELECT e.ename FROM emp e WHERE e.empno NOT IN (SELECT m.mgr_no FROM emp m WHERE m.mgr_no IS NOT NULL);
+SELECT e.ename FROM emp e WHERE e.empno IN (SELECT m.mgr_no FROM emp m);
+SELECT e.ename FROM emp e WHERE e.mgr_no IS NOT NULL;
+SELECT e.ename FROM emp e WHERE e.empno NOT IN (SELECT m.mgr_no FROM emp m);
+Q71
+
+ 
+Which of the following is true concerning a procedure?
+Single Choice - Select one correct answer from the options list.
+You do not create them with SQL.
+They do not need to have a unique name.
+They include procedural and SQL statements.
+They are the same thing as a function.
+Q72
+
+ 
+Which command will delete all data from a table and will not write to the rollback segment?
+Single Choice - Select one correct answer from the options list.
+DROP
+DELETE
+CASECADE
+TRUNCATE
+Q73
+
+ 
+Evaluate this SQL statement:
+ 
+SELECT e.EMPLOYEE_ID,e.LAST_NAME,e.DEPARTMENT_ID, d.DEPARTMENT_NAME FROM EMPLOYEES e, DEPARTMENTS d WHERE e.DEPARTMENT_ID = d.DEPARTMENT_ID;
+Single Choice - Select one correct answer from the options list.
+selection, projection, join
+selection, intersection, join
+intersection, projection, join
+difference, projection, product
+Q74
+
+ 
+The getSession() method with ‘true‘ as its parameter [ getSession(true) ] it will return the appropriate session object when:
+Single Choice - Select one correct answer from the options list.
+the session is completed
+the session object is passed to another method
+the session does not exist
+the session is existing
+Q75
+
+ 
+Which of the following statements are true about attributes?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Attributes can be added, removed or updated dynamically in a web application unlike context parameters.
+It is possible to associate multiple values for a given attribute.
+It is possible to attach listeners only for request-scoped attributes and session-scoped attributes.
+Context-scoped attributes continue to exist throughout the lifecycle of an application.
+Q76
+
+ 
+Which of the following methods will expire a session object?
+Single Choice - Select one correct answer from the options list.
+session.invalidate()
+session.destroy()
+session.close()
+session.expire()
+Q77
+
+ 
+What does a Servlet mapping defines in web.xml
+Single Choice - Select one correct answer from the options list.
+an association between a URL pattern and a response page
+an association between a URL pattern and session object
+an association between a URL pattern and a servlet
+None of the above
+Q78
+
+ 
+Which of the following are valid relational operators defined in EL?
+Single Choice - Select one correct answer from the options list.
+eq
+le
+ge
+All of the above
+Q79
+
+ 
+What is the corresponding EL expression for the following JSP Script Expression? <%=someValue %>
+Single Choice - Select one correct answer from the options list.
+${someValue}
+#{someValue}
+<#someValue#>
+<?someValue?>
+Q80
+
+ 
+The JSP scripting element:
+Single Choice - Select one correct answer from the options list.
+declares variables and methods.
+are used only to include scripting code within JSP.
+evaluate an expression.
+All of the above
+Q81
+
+ 
+Which of the following statements are true of directive elements?[Select 2]
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+They direct a JSP compiler in how it should translate and compile JSPs into Java Servlet implementation classes
+They define data for ultimate use by a JSP container
+They directly affect the output of information to the client response stream
+They are dependent on the particular request to be processed
+Q82
+
+ 
+Toplink, hibernate are the implementations of JPA
+True or False - Select the correct answer
+TRUE
+FALSE
+Q83
+
+ 
+Hibernate ,which is an ORM tool, implements the following standard
+Single Choice - Select one correct answer from the options list.
+JDBC
+JPA
+JNDI
+iBatis
+Q84
+
+ 
+Consider the following code written by a developer:
+
+  Customer c = null;
+  String qstr = "SELECT c FROM Customer c left join fetch c.orders WHERE c.id = :id ";
+  Query query = em.createQuery(qstr);
+  query.setParameter("id", new Integer(id));
+
+  c = (Customer) query.getSingleResult(); //LINE 1
+
+  Collection<CustomerOrder> orders = c.getOrders(); //LINE 2
+
+  for(CustomerOrder co : orders)
+  {
+    // do something with the order
+  }
+
+Which of the following statements are correct regarding the above code?
+Single Choice - Select one correct answer from the options list.
+The database will be accessed only once at line //1.
+The database will be accessed only twice - at line //1 and at line //2.
+The database will be accessed several times - first at line //1 and then for each order
+
+inside the for loop.
+The database will be accessed several times - first at line //1, second at line //2 and
+
+then for each order inside the for loop.
+Q85
+
+ 
+Identify queries that show correct usage of aggregate function of JPQL.
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+select new Integer(avg(s.score)) from Student s
+select avg(s.score) from Student s
+select count(s) from Student s
+select count(s.presentations) from Student s
+(Assume that presentations is a Collection field in Student)
